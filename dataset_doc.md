@@ -2,26 +2,26 @@
 
 ### Columns
 
-0 - Blue signal (Raw)
-1 - Green signal (Raw)
-2 - Red signal (Raw)
-3 - Blue filtered
-4 - Green filtered
-5 - Red filtered
-6 - Clear signal (Raw)
-7 - Priliminary SpO2 calculation
-8 - Priliminary HbA1c calculation
-9 - Ratio G/R (AC/DC)
-10 - Ratio B/R (AC/DC)
-11 - Blue DC
-12 - Green DC
-13 - Red DC
-14 - Blue AC
-15 - Green AC
-16 - Red AC
-17 - Heart rate ([1] algorithm)
-18 - SpO2 ([1] algorithm)
-19 - Transmission / Reflection mode (0 - reflection, 1 - transmission)
+0 - Blue signal (Raw)  
+1 - Green signal (Raw)  
+2 - Red signal (Raw)  
+3 - Blue filtered  
+4 - Green filtered  
+5 - Red filtered  
+6 - Clear signal (Raw)  
+7 - Priliminary SpO2 calculation  
+8 - Priliminary HbA1c calculation  
+9 - Ratio G/R (AC/DC)  
+10 - Ratio B/R (AC/DC)  
+11 - Blue DC  
+12 - Green DC  
+13 - Red DC  
+14 - Blue AC  
+15 - Green AC  
+16 - Red AC  
+17 - Heart rate ([1] algorithm)  
+18 - SpO2 ([1] algorithm)  
+19 - Transmission / Reflection mode (0 - reflection, 1 - transmission)  
 
 
 **N.B.** The data columns 3-18 are not used in this current work. These were implemented to test hardware implementability (Arduino UNO) of this current procedure (columns 3-16), which is out of scope of this current work. Columns 17-18 were used to assess our previous work for SpO2 and Heart rate estimation techniques[1].
