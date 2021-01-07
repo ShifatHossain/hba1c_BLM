@@ -26,7 +26,7 @@
 
 **N.B.** The data columns 3-18 are not used in this current work. These were implemented to test hardware implementability (Arduino UNO) of this current procedure (columns 3-16), which is out of scope of this current work. Columns 17-18 were used to assess our previous work for SpO2 and Heart rate estimation techniques[1].
 
-Column 0-2 are raw PPG signals for three wavelengths. These signals are used to perform current research. The data acquisition device has both "Transmission" and "Reflection" type PPG acquisition systems built in. The PPG type is switched to a mode (either transmission or reflection), and the LEDs are illuminated accordingly with 1 minute interval. The column 19 is the indicator of the current mode of PPG signal.
+Column 0-2 are raw DVP signals for three wavelengths. These signals are used to perform current research. The data acquisition device has both "Transmission" and "Reflection" type DVP acquisition systems built in. The DVP type is switched to a mode (either transmission or reflection), and the LEDs are illuminated accordingly with 1 minute interval. The column 19 is the indicator of the current mode of DVP signal.
 
 **References**
 [1] P. P. Banik, S. Hossain, T.-H. Kwon, H. Kim, and K.-D. Kim, “Development of a Wearable Reflection-Type Pulse Oximeter System to Acquire Clean PPG Signals and Measure Pulse Rate and SpO2 with and without Finger Motion,” Electronics, vol. 9, no. 11, Art. no. 11, Nov. 2020, doi: 10.3390/electronics9111905.
